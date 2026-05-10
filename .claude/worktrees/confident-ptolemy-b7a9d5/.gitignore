@@ -20,6 +20,3 @@
 *.swp
 *~
 .vscode/
-
-# Claude Code internals
-.claude/

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(git -C \"/Users/dradams/Documents/Claude/Projects/Quantum and the Human Soul/pub2-philosophy\" status)",
+      "Bash(git -C \"/Users/dradams/Documents/Claude/Projects/Quantum and the Human Soul/pub2-philosophy\" log --oneline -5)",
+      "Bash(git -C \"/Users/dradams/Documents/Claude/Projects/Quantum and the Human Soul/pub2-philosophy\" remote -v)",
+      "Bash(gh repo *)",
+      "Bash(git -C \"/Users/dradams/Documents/Claude/Projects/Quantum and the Human Soul/pub2-philosophy\" remote add origin https://github.com/adams-research/pub2-philosophy.git)",
+      "Bash(git -C \"/Users/dradams/Documents/Claude/Projects/Quantum and the Human Soul/pub2-philosophy\" push -u origin main)",
+      "Bash(find \"/Users/dradams/Documents/Claude/Projects/Quantum and the Human Soul/pub2-philosophy\" -maxdepth 4 -name \"*.pdf\" -not -path \"*/node_modules/*\" 2>/dev/null)",
+      "Read(//Library/**)",
+      "Read(//usr/local/**)",
+      "Bash(brew list *)",
+      "WebFetch(domain:www.bahai.org)"
+    ]
+  }
+}
