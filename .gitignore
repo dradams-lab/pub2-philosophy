@@ -23,3 +23,7 @@
 
 # Claude Code internals
 .claude/
+
+# Cosmos and History submission build artifacts
+pub2-cosmos-and-history.docx
+chicago-fullnote-bibliography.csl
