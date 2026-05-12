@@ -23,3 +23,6 @@
 
 # Claude Code internals
 .claude/
+
+# Auto-generated submission file (run make-submission.sh to regenerate)
+main-submission.tex
