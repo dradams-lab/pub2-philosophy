@@ -1,0 +1,84 @@
+% ============================================================
+%  Publication 2 — Philosophy
+%  "Three Paths to One Structure: Quantum Mechanics, Process
+%   Philosophy, and the Bahá'í Metaphysics of Relational Reality"
+%
+%  SUBMISSION VERSION: Foundations of Physics (Springer Nature)
+%  Class: sn-jnl with sn-mathphys (author-year) bibliography
+%  Compiler: pdflatex (Overleaf)
+%  Dr. Joshua Adams | 2026
+% ============================================================
+
+% Springer Nature journal class.
+% sn-mathphys = Mathematics & Physics author-year reference style
+% (drop the trailing 'num' to keep the natbib \citep / \citet pattern
+% used throughout pub2's section files; sn-mathphys.bst supports both
+% Namedate and Numbered modes.)
+\documentclass[pdflatex,sn-mathphys]{sn-jnl}
+
+% ── Encoding ──────────────────────────────────────────────
+% sn-jnl loads its own font/encoding setup; do not re-load fontenc.
+\usepackage[utf8]{inputenc}
+
+% ── Mathematics ───────────────────────────────────────────
+% sn-jnl loads amsmath; we need amssymb and braket for our notation.
+\usepackage{amssymb}
+\usepackage{braket}
+
+% ── Tables & figures ──────────────────────────────────────
+% sn-jnl loads graphicx, booktabs, tabularx, longtable already.
+\graphicspath{{figures/}}
+
+% ── Bahá'í typesetting helpers ────────────────────────────
+\usepackage{xspace}
+\newcommand{\bahai}{Bah\'a\textquoteright\'{\i}\xspace}
+\newcommand{\Bahai}{Bah\'a\textquoteright\'{\i}\xspace}
+\newcommand{\Bahaullah}{Bah\'a\textquoteright u\textquoteright ll\'ah\xspace}
+\newcommand{\AbdulBaha}{\textquoteleft Abdu\textquoteright l-Bah\'a\xspace}
+\newcommand{\mahabbat}{\textit{mahabbat}\xspace}
+
+% ── Custom commands ───────────────────────────────────────
+\newcommand{\RCT}{\textsc{rct}}
+\newcommand{\URA}{U_{\!\mathrm{RA}}}
+
+% ── ORCID ─────────────────────────────────────────────────
+\usepackage{orcidlink}
+
+% =============================================================
+\begin{document}
+% =============================================================
+
+\title[Three Paths to One Structure]{Three Paths to One Structure:
+       Quantum Mechanics, Process Philosophy, and the \bahai
+       Metaphysics of Relational Reality}
+
+\author*[1]{\fnm{Joshua} \sur{Adams}\orcidlink{0000-0002-7185-9125}}
+\email{contact@joshuaadams.dev}
+
+\affil*[1]{\orgname{Independent Researcher}}
+
+% ── Abstract ──────────────────────────────────────────────
+\abstract{\input{sections/00-abstract}}
+
+\keywords{quantum mechanics, process philosophy, Whitehead, \bahai
+metaphysics, relational ontology, Bell's theorem, decoherence,
+entanglement, philosophy of physics, overlapping consensus,
+science and religion, Relational Coherence Theorem}
+
+\maketitle
+
+% ── Body ──────────────────────────────────────────────────
+\input{sections/01-introduction}
+\input{sections/02-against-substance}
+\input{sections/03-whitehead-process}
+\input{sections/04-bahai-prior}
+\input{sections/05-six-convergences}
+\input{sections/06-semantic-bridge}
+\input{sections/06b-rct-philosophical}
+\input{sections/07-non-decoherent-soul}
+\input{sections/08-conclusion}
+
+% ── Bibliography ──────────────────────────────────────────
+\bibliography{references}
+
+\end{document}
