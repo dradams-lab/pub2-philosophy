@@ -43,7 +43,7 @@ The convergence is formalized through six structural isomorphisms (relational on
 
 ## Companion publications
 
-- **Pub1 — Physics**: [The Relational Coherence Theorem](https://github.com/adams-research/pub1-physics-rct) (forthcoming Zenodo DOI)
+- **Pub1 — Physics**: [The Relational Coherence Theorem](https://github.com/adams-research/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
 - **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/adams-research/pub3-bahai-studies) (forthcoming Zenodo DOI)
 - **Book**: [The Physics of Love](https://github.com/adams-research/book-physics-of-love) (in preparation)
 
