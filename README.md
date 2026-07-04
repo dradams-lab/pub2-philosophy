@@ -44,7 +44,7 @@ The convergence is formalized through six structural isomorphisms (relational on
 ## Companion publications
 
 - **Pub1 — Physics**: [Relational Coherence Budgeting for Tunable Exchange Gates](https://github.com/dradams-lab/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
-- **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/dradams-lab/pub3-bahai-studies) (forthcoming Zenodo DOI)
+- **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/dradams-lab/pub3-bahai-studies) — [DOI: 10.5281/zenodo.20388678](https://doi.org/10.5281/zenodo.20388678)
 - **Book**: [The Physics of Love](https://github.com/dradams-lab/book-physics-of-love) (in preparation)
 
 ---
