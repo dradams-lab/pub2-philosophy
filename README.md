@@ -34,8 +34,8 @@ The convergence is formalized through six structural isomorphisms (relational on
              Philosophy, and the Bah{\'a}'{\'i} Metaphysics of Relational
              Reality},
   year    = {2026},
-  doi     = {10.5281/zenodo.20387164},
-  note    = {Zenodo preprint v0.2. Concept DOI (evergreen): 10.5281/zenodo.20130289}
+  doi     = {10.5281/zenodo.21184912},
+  note    = {Zenodo preprint v0.5. Concept DOI (evergreen): 10.5281/zenodo.20130289}
 }
 ```
 
