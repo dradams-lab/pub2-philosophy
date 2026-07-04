@@ -3,43 +3,31 @@
 %  "Three Paths to One Structure: Quantum Mechanics, Process
 %   Philosophy, and the Bahá'í Metaphysics of Relational Reality"
 %
-%  Target: Foundations of Physics · Zygon · Theology and Science
+%  SUBMISSION VERSION: Foundations of Physics (Springer Nature)
+%  Class: sn-jnl with sn-mathphys (author-year) bibliography
 %  Compiler: pdflatex (Overleaf)
 %  Dr. Joshua Adams | 2026
 % ============================================================
 
-\documentclass[12pt, a4paper]{article}
+% Springer Nature journal class.
+% sn-mathphys = Mathematics & Physics author-year reference style
+% (drop the trailing 'num' to keep the natbib \citep / \citet pattern
+% used throughout pub2's section files; sn-mathphys.bst supports both
+% Namedate and Numbered modes.)
+\documentclass[pdflatex,sn-mathphys]{sn-jnl}
 
-% ── Encoding & fonts ──────────────────────────────────────
-\usepackage[T1]{fontenc}
+% ── Encoding ──────────────────────────────────────────────
+% sn-jnl loads its own font/encoding setup; do not re-load fontenc.
 \usepackage[utf8]{inputenc}
 
-% ── Page geometry ─────────────────────────────────────────
-\usepackage[margin=1in]{geometry}
-\usepackage{setspace}
-\doublespacing
-
 % ── Mathematics ───────────────────────────────────────────
-\usepackage{amsmath,amssymb}
+% sn-jnl loads amsmath; we need amssymb and braket for our notation.
+\usepackage{amssymb}
 \usepackage{braket}
 
 % ── Tables & figures ──────────────────────────────────────
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{tabularx}
-\usepackage{longtable}
+% sn-jnl loads graphicx, booktabs, tabularx, longtable already.
 \graphicspath{{figures/}}
-
-% ── Bibliography (author-year for philosophy journals) ────
-\usepackage[authoryear, round, sort]{natbib}
-\bibliographystyle{apalike}
-
-% ── Hyperlinks ────────────────────────────────────────────
-\usepackage{hyperref}
-\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue}
-
-% ── ORCID ─────────────────────────────────────────────────
-\usepackage{orcidlink}
 
 % ── Bahá'í typesetting helpers ────────────────────────────
 \usepackage{xspace}
@@ -53,29 +41,31 @@
 \newcommand{\RCF}{\textsc{rcf}}
 \newcommand{\URA}{U_{\!\mathrm{RA}}}
 
+% ── ORCID ─────────────────────────────────────────────────
+\usepackage{orcidlink}
+
 % =============================================================
 \begin{document}
 % =============================================================
 
-\title{Three Paths to One Structure: Quantum Mechanics, Process Philosophy,\\
-       and the \bahai Metaphysics of Relational Reality}
+\title[Three Paths to One Structure]{Three Paths to One Structure:
+       Quantum Mechanics, Process Philosophy, and the \bahai
+       Metaphysics of Relational Reality}
 
-\author{Dr. Joshua Adams \orcidlink{0000-0002-7185-9125}\\
-        \small Independent Researcher\\
-        \small \texttt{contact@joshuaadams.dev}}
+\author*[1]{\fnm{Joshua} \sur{Adams}\orcidlink{0000-0002-7185-9125}}
+\email{contact@joshuaadams.dev}
 
-\date{\today}
-
-\maketitle
+\affil*[1]{\orgname{Independent Researcher}}
 
 % ── Abstract ──────────────────────────────────────────────
-\begin{abstract}
-\input{sections/00-abstract}
-\end{abstract}
+\abstract{\input{sections/00-abstract}}
 
-\newpage
-\tableofcontents
-\newpage
+\keywords{quantum mechanics, process philosophy, Whitehead, \bahai
+metaphysics, relational ontology, Bell's theorem, decoherence,
+entanglement, philosophy of physics, overlapping consensus,
+science and religion, Relational Coherence Framework}
+
+\maketitle
 
 % ── Body ──────────────────────────────────────────────────
 \input{sections/01-introduction}
@@ -86,7 +76,7 @@
 \input{sections/06-semantic-bridge}
 \input{sections/06b-rct-philosophical}
 \input{sections/07-non-decoherent-soul}
-\input{sections/08-conclusion}\newpage
+\input{sections/08-conclusion}
 
 % ── Bibliography ──────────────────────────────────────────
 \bibliography{references}

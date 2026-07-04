@@ -1,7 +1,7 @@
-% ── SECTION 6b: THE RCT IN PHILOSOPHICAL LANGUAGE (~900 words) ───────────────
+% ── SECTION 6b: THE RCF IN PHILOSOPHICAL LANGUAGE (~900 words) ───────────────
 
-\section{The Relational Coherence Theorem: Formalizing the Convergence}
-\label{sec:rct-phil}
+\section{The Relational Coherence Framework: Formalizing the Convergence}
+\label{sec:rcf-phil}
 
 The three preceding sections have made a philosophical argument.
 Sections~\ref{sec:substance}--\ref{sec:whitehead} established that the
@@ -16,15 +16,15 @@ Section~\ref{sec:semantic} showed that each tradition's technical vocabulary
 names the same underlying phenomenon.
 
 What converts this philosophical argument into a scientific contribution
-with testable consequences is the \emph{Relational Coherence Theorem} (\RCT):
+with testable consequences is the \emph{Relational Coherence Framework} (\RCF):
 a formal mathematical framework, developed in the companion physics
 paper~\citep{Adams2026Physics}, that translates the central claim of
 process ontology into the language of quantum mechanics and derives
 quantitatively distinct predictions from it.
-This section presents the \RCT\ in non-mathematical terms sufficient for
+This section presents the \RCF\ in non-mathematical terms sufficient for
 the philosophical argument.
 
-\subsection{What the RCT Does}
+\subsection{What the RCF Does}
 
 The central claim of process ontology --- and of the three-tradition
 convergence documented in this paper --- is that \emph{relational affinity
@@ -34,10 +34,10 @@ but as patterns of relational coherence: the ongoing relational bonds
 that constitute a thing are what make it a thing.
 When those bonds dissolve, the thing dissolves.
 
-The \RCT\ translates this claim into formal quantum mechanics through
-a single quantitative object: the \emph{Affinity Tensor} $\alpha(S,E)$.
+The \RCF\ translates this claim into formal quantum mechanics through
+a single quantitative object: the \emph{Affinity Operator} $\alpha(S,E)$.
 For any quantum system $S$ in relation to its environment $E$, the
-Affinity Tensor measures the degree to which $S$ retains relational
+Affinity Operator measures the degree to which $S$ retains relational
 coherence with $E$ --- the magnitude of the quantum bonds that constitute
 $S$'s participation in relational existence.
 When $\alpha = 1$, $S$ is maximally coherent: fully participating in
@@ -51,11 +51,11 @@ thing's relational being.
 
 \subsection{Four Propositions}
 
-The \RCT\ comprises four propositions, each of which makes the
+The \RCF\ comprises four propositions, each of which makes the
 philosophical claim mathematically precise.
 
 \paragraph{Property indefiniteness.}
-A system with nonzero Affinity Tensor ($\alpha > 0$) does not possess
+A system with nonzero Affinity Operator ($\alpha > 0$) does not possess
 classical-style definite values for the full set of its complementary
 observables, and (when entangled) does not possess definite local
 properties at all.
@@ -70,15 +70,16 @@ exclusive --- exactly as process ontology predicts.
 
 \paragraph{Relational determination.}
 Definite properties emerge through relational interaction.
-Under environmental coupling, the Affinity Tensor decays continuously
+Under environmental coupling, the Affinity Operator decays continuously
 from its initial value toward zero.
 As it decays, the system's relational potential is actualized into
 definite outcomes through its interaction with the environment.
-This is the mathematical description of Whiteheadian concrescence:
-the transition from potential to actuality through relational process.
+On my proposal, this is a mathematical formalization of what Whitehead
+means by concrescence: the transition from potential to actuality through
+relational process.
 
 \paragraph{Coherence--affinity correspondence.}
-The Affinity Tensor ranges continuously over $[0,1]$, with $\alpha = 1$
+The Affinity Operator ranges continuously over $[0,1]$, with $\alpha = 1$
 at maximum relational coherence and $\alpha = 0$ at full decoherence.
 This means that relational affinity is not binary --- not simply present
 or absent --- but a continuously graded quantity.
@@ -108,16 +109,16 @@ the next occasion of relational actualization.
 
 \subsection{The Relational Affinity Gate}
 
-The \RCT\ has a direct application in quantum computing.
+The \RCF\ has a direct application in quantum computing.
 Standard treatments of two-qubit unitaries~\citep{NielsenChuang2000}
 parameterize gates within the Weyl chamber of nonlocal
-operations~\citep{Zhang2003WeylChamber}; the \RCT-derived gate occupies
+operations~\citep{Zhang2003WeylChamber}; the \RCF-derived gate occupies
 a specific continuous trajectory through that chamber.
 If relational coupling is a continuously variable resource rather than
 a fixed quantity, then a two-qubit gate should expose a continuous
 coupling parameter that can be tuned to the actual coherence budget of
 a physical quantum processor.
-The \emph{Relational Affinity Gate} ($\URA$), derived from the \RCT,
+The \emph{Relational Affinity Gate} ($\URA$), derived from the \RCF,
 does exactly this: it is a continuously parameterized two-qubit unitary
 that trades a fraction of its entangling capability for a proportionally
 shorter operation time under noise.
@@ -125,14 +126,37 @@ On hardware where gate duration scales with coupling strength, the
 companion paper predicts that $\URA$ at sub-maximal coupling will
 achieve measurably higher process fidelity than fixed entangling gates
 such as \textsc{cnot} or \textsc{iswap}~\citep{Adams2026Physics}.
+At the per-gate level, the companion paper compares $\URA(\pi/8)$ ---
+operating at half the duration of \textsc{iswap} --- against fixed
+maximally entangling gates, reporting fidelity advantages of
+$\Delta F \in [{+0.019},\,{+0.020}]$ at per-gate error rate
+$p_{\rm base} = 0.05$ and $\Delta F \in [{+0.038},\,{+0.039}]$ at
+$p_{\rm base} = 0.10$, consistent across depolarizing, dephasing, and
+amplitude-damping noise models~\citep{Adams2026Physics}.
+The principal technical contribution of the companion paper is the
+\emph{Coherence-Budget Allocation Theorem}: given a target amount of
+entanglement to be distributed across the layers of a quantum circuit
+and a per-layer noise characterization, the theorem derives the unique
+cost-minimizing exchange-angle schedule in closed form.
+The theorem yields three falsifiable predictions: distribute
+entanglement across layers rather than concentrate it in a single gate
+(uniform-noise case); route heavier entanglement onto the quieter layers
+(heterogeneous-noise case); and skip layers entirely when their local
+noise rate exceeds a global threshold set by the coherence budget.
+These predictions have been confirmed in multi-layer density-matrix
+simulation, with the optimal schedule achieving fidelity advantages of
+up to $\Delta F = +0.040$ over a concentrated full-entangler baseline
+and $\Delta F = +0.025$ over a uniform-angle schedule on heterogeneous
+noise~\citep{Adams2026Physics}.
 This is not merely an engineering optimization.
 It is a prediction derived from the process ontological claim that
 relational affinity is a continuous, conservatively redistributed
-resource --- a claim that the \RCT\ formalizes and that the $\URA$
+resource --- a claim that the \RCF\ formalizes and that the $\URA$
 gate tests experimentally.
-The ``economical'' principle the gate embodies --- extracting only as
-much entanglement as the coherence budget can sustain --- instantiates
-the conservation of relational potential developed in the preceding
+The ``economical'' principle the theorem embodies --- extracting only
+as much entanglement as the coherence budget can sustain, layer by
+layer, routed toward the quietest substrates --- instantiates the
+conservation of relational potential developed in the preceding
 subsection and resonates with a broader emphasis on balance and measured
 proportion that recurs across all three traditions: Whitehead's
 redistribution of relational potential under unitary evolution, and the
@@ -140,9 +164,9 @@ redistribution of relational potential under unitary evolution, and the
 sustained by attraction and agreement in proper measure rather than by
 maximal force.
 
-\subsection{The RCT as the Formal Expression of the Convergence}
+\subsection{The RCF as the Formal Expression of the Convergence}
 
-The significance of the \RCT\ for the argument of this paper is this:
+The significance of the \RCF\ for my argument here is this:
 it demonstrates that the convergence documented in the preceding sections
 is not merely philosophical.
 The claim that existence is constituted by relational affinity --- made
@@ -150,11 +174,11 @@ by Whitehead through philosophical analysis, by the \bahai writings
 through spiritual revelation, and by quantum mechanics through more than
 six decades of experimental tests of Bell's inequalities --- is
 sufficiently precise to generate a formal mathematical framework, a
-novel quantitative object (the Affinity Tensor), a new two-qubit gate,
+novel quantitative object (the Affinity Operator), a new two-qubit gate,
 and testable predictions about gate fidelity under realistic noise.
 
 The convergence is not a set of interesting similarities.
 It is the identification of a real feature of reality --- the relational
 constitution of existence --- that is precise enough to be formalized,
 computed, and tested.
-The \RCT\ is that formalization.
+The \RCF\ is that formalization.
