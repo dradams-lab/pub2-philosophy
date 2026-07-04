@@ -15,13 +15,13 @@ Three independent intellectual traditions — modern quantum physics, the proces
 
 This paper makes three related arguments:
 
-1. **Substance ontology is formally incompatible with quantum mechanics.** Bell's theorem, combined with the experimental violation of its inequalities (Aspect 1982; Hensen et al. 2015), makes local realism untenable and undermines the substance-ontological assumption that systems carry intrinsic properties prior to measurement.
+1. **Local substance ontology is formally incompatible with quantum mechanics.** Bell's theorem, combined with the experimental violation of its inequalities (Aspect 1982; Hensen et al. 2015), makes local realism untenable and undermines the substance-ontological assumption that systems carry intrinsic properties prior to measurement. (Nonlocal alternatives such as Bohmian mechanics survive Bell but, on examination, formalize a relational structure rather than restore classical substance ontology.)
 
 2. **The Bahá'í writings constitute an independent prior instantiation of process ontology**, articulating its essential claims decades before Whitehead (1929) named the framework philosophically and roughly a century before physics confirmed it experimentally.
 
 3. **These two findings together establish a triadic convergence**: three traditions built by three different civilizations, using three different methodologies, across roughly 170 years, detect the same feature of reality.
 
-The convergence is formalized through six structural isomorphisms (relational ontology, nonlocal interconnection, observer-dependence, decoherence, holographic order, and motion as life) and the Relational Coherence Theorem, developed in [a companion physics paper](https://github.com/adams-research/pub1-physics-rct), which translates the philosophical claim into testable quantum-mechanical predictions.
+The convergence is formalized through six structural isomorphisms (relational ontology, nonlocal interconnection, observer-dependence, decoherence, holographic order, and motion as life) and the Relational Coherence Framework (RCF), developed in [a companion physics paper](https://github.com/dradams-lab/pub1-physics-rct), which translates the philosophical claim into testable quantum-mechanical predictions, including the Coherence-Budget Allocation Theorem.
 
 ---
 
@@ -34,8 +34,8 @@ The convergence is formalized through six structural isomorphisms (relational on
              Philosophy, and the Bah{\'a}'{\'i} Metaphysics of Relational
              Reality},
   year    = {2026},
-  doi     = {10.5281/zenodo.20130289},
-  note    = {Zenodo preprint. Concept DOI (evergreen).}
+  doi     = {10.5281/zenodo.20387164},
+  note    = {Zenodo preprint v0.2. Concept DOI (evergreen): 10.5281/zenodo.20130289}
 }
 ```
 
@@ -43,9 +43,9 @@ The convergence is formalized through six structural isomorphisms (relational on
 
 ## Companion publications
 
-- **Pub1 — Physics**: [The Relational Coherence Theorem](https://github.com/adams-research/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
-- **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/adams-research/pub3-bahai-studies) (forthcoming Zenodo DOI)
-- **Book**: [The Physics of Love](https://github.com/adams-research/book-physics-of-love) (in preparation)
+- **Pub1 — Physics**: [Relational Coherence Budgeting for Tunable Exchange Gates](https://github.com/dradams-lab/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
+- **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/dradams-lab/pub3-bahai-studies) (forthcoming Zenodo DOI)
+- **Book**: [The Physics of Love](https://github.com/dradams-lab/book-physics-of-love) (in preparation)
 
 ---
 
@@ -60,7 +60,7 @@ pdflatex main.tex
 pdflatex main.tex
 ```
 
-The PDF is also attached to each [GitHub release](https://github.com/adams-research/pub2-philosophy/releases) and archived on Zenodo via the DOI above.
+The PDF is also attached to each [GitHub release](https://github.com/dradams-lab/pub2-philosophy/releases) and archived on Zenodo via the DOI above.
 
 ---
 
