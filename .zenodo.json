@@ -31,7 +31,7 @@
   "language": "eng",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/adams-research/pub2-philosophy",
+      "identifier": "https://github.com/dradams-lab/pub2-philosophy",
       "relation": "isSupplementedBy",
       "resource_type": "software"
     },

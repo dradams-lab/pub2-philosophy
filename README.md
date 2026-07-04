@@ -21,7 +21,7 @@ This paper makes three related arguments:
 
 3. **These two findings together establish a triadic convergence**: three traditions built by three different civilizations, using three different methodologies, across roughly 170 years, detect the same feature of reality.
 
-The convergence is formalized through six structural isomorphisms (relational ontology, nonlocal interconnection, observer-dependence, decoherence, holographic order, and motion as life) and the Relational Coherence Framework (RCF), developed in [a companion physics paper](https://github.com/adams-research/pub1-physics-rct), which translates the philosophical claim into testable quantum-mechanical predictions, including the Coherence-Budget Allocation Theorem.
+The convergence is formalized through six structural isomorphisms (relational ontology, nonlocal interconnection, observer-dependence, decoherence, holographic order, and motion as life) and the Relational Coherence Framework (RCF), developed in [a companion physics paper](https://github.com/dradams-lab/pub1-physics-rct), which translates the philosophical claim into testable quantum-mechanical predictions, including the Coherence-Budget Allocation Theorem.
 
 ---
 
@@ -43,9 +43,9 @@ The convergence is formalized through six structural isomorphisms (relational on
 
 ## Companion publications
 
-- **Pub1 — Physics**: [Relational Coherence Budgeting for Tunable Exchange Gates](https://github.com/adams-research/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
-- **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/adams-research/pub3-bahai-studies) (forthcoming Zenodo DOI)
-- **Book**: [The Physics of Love](https://github.com/adams-research/book-physics-of-love) (in preparation)
+- **Pub1 — Physics**: [Relational Coherence Budgeting for Tunable Exchange Gates](https://github.com/dradams-lab/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
+- **Pub3 — Bahá'í Studies**: [Mahabbat and the Affinity Tensor](https://github.com/dradams-lab/pub3-bahai-studies) (forthcoming Zenodo DOI)
+- **Book**: [The Physics of Love](https://github.com/dradams-lab/book-physics-of-love) (in preparation)
 
 ---
 
@@ -60,7 +60,7 @@ pdflatex main.tex
 pdflatex main.tex
 ```
 
-The PDF is also attached to each [GitHub release](https://github.com/adams-research/pub2-philosophy/releases) and archived on Zenodo via the DOI above.
+The PDF is also attached to each [GitHub release](https://github.com/dradams-lab/pub2-philosophy/releases) and archived on Zenodo via the DOI above.
 
 ---
 
