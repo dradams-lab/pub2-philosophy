@@ -45,7 +45,7 @@ The convergence is three-way on relational structure and two-way on love; that l
 
 ## Companion publications
 
-- **Pub1 — Physics**: [Relational Coherence Budgeting for Tunable Exchange Gates](https://github.com/dradams-lab/pub1-physics-rct) — [DOI: 10.5281/zenodo.20130304](https://doi.org/10.5281/zenodo.20130304)
+- **Pub1 — Physics**: [Relational Coherence Budgeting for Tunable Exchange Gates](https://github.com/dradams-lab/pub1-physics-rct) — [DOI: 10.5281/zenodo.23045066](https://doi.org/10.5281/zenodo.23045066) (v1.9.2)
 - **Pub3 — Bahá'í Studies**: [Mahabbat and the Two Wings](https://github.com/dradams-lab/pub3-bahai-studies) — [DOI: 10.5281/zenodo.23046022](https://doi.org/10.5281/zenodo.23046022) (v0.4.4)
 - **Book**: [The Physics of Love](https://github.com/dradams-lab/book-physics-of-love) (in preparation)
 
