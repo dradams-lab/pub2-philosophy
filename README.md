@@ -11,17 +11,19 @@ Author: Dr. Joshua Adams ([ORCID 0000-0002-7185-9125](https://orcid.org/0000-000
 
 ## Abstract
 
-Three independent intellectual traditions — modern quantum physics, the process philosophy of Alfred North Whitehead, and the Bahá'í writings of Bahá'u'lláh and 'Abdu'l-Bahá — converge on the same structural description of reality: that existence is constituted by relationship, that properties emerge only through relational interaction, and that the relational principle that sustains integrated being is, in each tradition's vocabulary, named love.
+Three independent intellectual traditions — modern quantum physics, the process philosophy of Alfred North Whitehead, and the Bahá'í writings of Bahá'u'lláh and 'Abdu'l-Bahá — converge on the same structural description of reality: that existence is constituted by relationship, and that properties emerge only through relational interaction. That love sustains those relationships is the claim of the Bahá'í writings (*mahabbat*) and, in his own vocabulary (*Eros*), of Whitehead; physics describes the structure but names no such principle.
 
 This paper makes three related arguments:
 
-1. **Local substance ontology is formally incompatible with quantum mechanics.** Bell's theorem, combined with the experimental violation of its inequalities (Aspect 1982; Hensen et al. 2015), makes local realism untenable and undermines the substance-ontological assumption that systems carry intrinsic properties prior to measurement. (Nonlocal alternatives such as Bohmian mechanics survive Bell but, on examination, formalize a relational structure rather than restore classical substance ontology.)
+1. **Local substance ontology is formally incompatible with quantum mechanics.** Bell's theorem, combined with the experimental violation of its inequalities (Aspect 1982; Hensen et al. 2015), makes local realism untenable and undermines the substance-ontological assumption that systems carry intrinsic properties prior to measurement. (Nonlocal alternatives such as Bohmian mechanics survive Bell but, on the paper's reading, formalize a relational structure rather than restore classical substance ontology.)
 
-2. **The Bahá'í writings constitute an independent prior instantiation of process ontology**, articulating its essential claims decades before Whitehead (1929) named the framework philosophically and roughly a century before physics confirmed it experimentally.
+2. **The Bahá'í writings constitute an independent prior instantiation of process ontology**, articulating its essential claims decades before Whitehead (1929) named the framework philosophically and before experiments on Bell's inequalities ruled out local realism.
 
-3. **These two findings together establish a triadic convergence**: three traditions built by three different civilizations, using three different methodologies, across roughly 170 years, detect the same feature of reality.
+3. **These two findings together support a triadic convergence**: three traditions from different settings, using different methods across roughly 170 years, describe the same relational structure.
 
-The convergence is formalized through six structural isomorphisms (relational ontology, nonlocal interconnection, observer-dependence, decoherence, holographic order, and motion as life) and the Relational Coherence Framework (RCF), developed in [a companion physics paper](https://github.com/dradams-lab/pub1-physics-rct), which translates the philosophical claim into testable quantum-mechanical predictions, including the Coherence-Budget Allocation Theorem.
+The convergence is formalized through six structural isomorphisms (relational ontology, nonlocal interconnection, observer-dependence, decoherence, holographic order, and motion as life) and the Relational Coherence Framework (RCF), developed in [a companion physics paper](https://github.com/dradams-lab/pub1-physics-rct), which restates standard decoherence theory in terms of a coherence quantifier, without altering its predictions, and derives testable consequences for quantum-gate scheduling, including the Coherence-Budget Allocation Theorem.
+
+The convergence is three-way on relational structure and two-way on love; that love is the principle sustaining the structure is the paper's central interpretive claim, not a result of physics.
 
 ---
 
