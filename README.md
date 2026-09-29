@@ -36,8 +36,8 @@ The convergence is three-way on relational structure and two-way on love; that l
              Philosophy, and the Bah{\'a}'{\'i} Metaphysics of Relational
              Reality},
   year    = {2026},
-  doi     = {10.5281/zenodo.21184912},
-  note    = {Zenodo preprint v0.5. Concept DOI (evergreen): 10.5281/zenodo.20130289}
+  doi     = {10.5281/zenodo.20130289},
+  note    = {Zenodo preprint. Concept DOI (all versions)}
 }
 ```
 
