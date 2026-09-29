@@ -19,8 +19,10 @@ What converts this philosophical argument into a scientific contribution
 with testable consequences is the \emph{Relational Coherence Framework} (\RCF):
 a formal mathematical framework, developed in the companion physics
 paper~\citep{Adams2026Physics}, that translates the central claim of
-process ontology into the language of quantum mechanics and derives
-quantitatively distinct predictions from it.
+process ontology into the language of quantum mechanics.
+It restates standard decoherence theory in terms of a coherence
+quantifier, without altering its predictions, and derives testable
+consequences for scheduling a tunable two-qubit gate.
 This section presents the \RCF\ in non-mathematical terms sufficient for
 the philosophical argument.
 
@@ -79,8 +81,8 @@ exclusive --- exactly as process ontology predicts.
 
 \paragraph{Relational determination.}
 Definite properties emerge through relational interaction.
-Under environmental coupling, the scalar affinity $\bar\alpha$ decays
-continuously from its initial value toward zero.
+Under Markovian environmental dephasing, the scalar affinity $\bar\alpha$
+decays continuously from its initial value toward zero.
 As it decays, the system's relational potential is actualized into
 definite outcomes through its interaction with the environment.
 On my proposal, this is a mathematical formalization of what Whitehead
@@ -122,16 +124,19 @@ the next occasion of relational actualization.
 The \RCF\ has a direct application in quantum computing.
 Standard treatments of two-qubit unitaries~\citep{NielsenChuang2000}
 parameterize gates within the Weyl chamber of nonlocal
-operations~\citep{Zhang2003WeylChamber}; the \RCF-derived gate occupies
-a specific continuous trajectory through that chamber.
+operations~\citep{Zhang2003WeylChamber}; the \RCF\ works with the
+isotropic exchange family, which traces a specific continuous trajectory
+through that chamber.
 If relational coupling is a continuously variable resource rather than
 a fixed quantity, then a two-qubit gate should expose a continuous
 coupling parameter that can be tuned to the actual coherence budget of
 a physical quantum processor.
-The \emph{Relational Affinity Gate} ($\URA$), derived from the \RCF,
-does exactly this: it is a continuously parameterized two-qubit unitary
-that trades a fraction of its entangling capability for a proportionally
-shorter operation time under noise.
+The \emph{Relational Affinity Gate} ($\URA$) does exactly this: it is a
+continuously parameterized two-qubit unitary that trades a fraction of
+its entangling capability for a proportionally shorter operation time
+under noise.
+The unitary itself is the standard exchange family and not a new gate;
+the name marks the use the \RCF\ makes of it~\citep{Adams2026Physics}.
 On hardware where gate duration scales with coupling strength, the
 companion paper predicts that $\URA$ at sub-maximal coupling will
 achieve measurably higher process fidelity than fixed entangling gates
@@ -154,25 +159,30 @@ entanglement across layers rather than concentrate it in a single gate
 (heterogeneous-noise case); and skip layers entirely when their local
 noise rate exceeds a global threshold set by the coherence budget.
 These predictions have been confirmed in multi-layer density-matrix
-simulation, with the optimal schedule achieving fidelity advantages of
-up to $\Delta F = +0.040$ over a concentrated full-entangler baseline
-and $\Delta F = +0.025$ over a uniform-angle schedule on heterogeneous
-noise~\citep{Adams2026Physics}.
-This is not merely an engineering optimization.
-It is a prediction derived from the process ontological claim that
-relational potential is a continuous, conservatively redistributed
-resource --- a claim that the \RCF\ formalizes and that the $\URA$
-gate tests experimentally.
+simulation, not yet on quantum hardware, with the optimal schedule
+achieving fidelity advantages of up to $\Delta F = +0.040$ over a
+concentrated full-entangler baseline and $\Delta F = +0.025$ over a
+uniform-angle schedule on heterogeneous noise~\citep{Adams2026Physics}.
+The theorem is an engineering result, and it holds only as far as its
+noise model holds.
+Those benchmarks start every layer with the same coherence, where the
+scalar affinity drops out of the optimal schedule, so they test the
+scheduling rule without showing that $\bar\alpha$ is needed; where
+layers differ in coherence, the companion paper reports mixed results.
+What the \RCF\ contributes is the conceptual warrant for the approach:
+the picture of relational potential as a continuous, conservatively
+redistributed resource.
 The ``economical'' principle the theorem embodies --- extracting only
 as much entanglement as the coherence budget can sustain, layer by
 layer, routed toward the quietest substrates --- instantiates the
 redistribution of relational potential developed in the preceding
-subsection and resonates with a broader emphasis on balance and measured
-proportion that recurs across all three traditions: Whitehead's
-redistribution of relational potential under unitary evolution, and the
-\bahai teaching, articulated by \AbdulBaha, that integrated being is
-sustained by attraction and agreement in proper measure rather than by
-maximal force.
+subsection.
+It also resonates with the \bahai teaching, articulated by \AbdulBaha,
+that integrated being is sustained by attraction and agreement in proper
+measure rather than by maximal force; Whitehead's eros, the drive toward
+richer relation, finds a more distant echo in the theorem's preference
+for spending coherence where it yields the most over seeking maximal
+intensity at any one step.
 
 \subsection{The RCF as the Formal Expression of the Convergence}
 
@@ -182,10 +192,12 @@ is not merely philosophical.
 The claim that existence is constituted by relational affinity --- made
 by Whitehead through philosophical analysis, by the \bahai writings
 through spiritual revelation, and by quantum mechanics through more than
-six decades of experimental tests of Bell's inequalities --- is
-sufficiently precise to generate a formal mathematical framework, a
-novel quantitative object (the Affinity Operator), a new two-qubit gate,
-and testable predictions about gate fidelity under realistic noise.
+five decades of experimental tests of Bell's inequalities --- is
+sufficiently precise to generate a formal mathematical framework: a
+standard coherence quantifier given a physical grounding in the pointer
+basis (the scalar affinity $\bar\alpha$), a coherence-budget
+parameterization of the standard exchange gate, and testable predictions
+about gate fidelity under realistic noise.
 
 The convergence is not a set of interesting similarities.
 It is the identification of a real feature of reality --- the relational
