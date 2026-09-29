@@ -34,20 +34,29 @@ but as patterns of relational coherence: the ongoing relational bonds
 that constitute a thing are what make it a thing.
 When those bonds dissolve, the thing dissolves.
 
-The \RCF\ translates this claim into formal quantum mechanics through
-a single quantitative object: the \emph{Affinity Operator} $\alpha(S,E)$.
-For any quantum system $S$ in relation to its environment $E$, the
-Affinity Operator measures the degree to which $S$ retains relational
-coherence with $E$ --- the magnitude of the quantum bonds that constitute
-$S$'s participation in relational existence.
-When $\alpha = 1$, $S$ is maximally coherent: fully participating in
-the relational structure that constitutes quantum existence.
-When $\alpha = 0$, $S$ is fully decohered: classically separate,
-its relational bonds dissolved into the environment.
+The \RCF\ translates this claim into formal quantum mechanics by tracking
+how relational potential becomes relational connection.
+Its central object is the \emph{Affinity Operator} $\alpha(S,E)$: for a
+quantum system $S$ in relation to its environment $E$, the matrix of
+$S$'s coherences in the pointer basis that $S$'s coupling to $E$ selects.
+The operator's scalar summary, the scalar affinity $\bar\alpha(S,E) \in [0,1]$,
+measures $S$'s \emph{local} relational potential: the coherent
+superposition $S$ still holds, and with it $S$'s capacity to show
+interference.
+It does not measure the bonds between $S$ and $E$; those bonds are
+correlations, physics calls them entanglement, and along decoherence
+they grow as $\bar\alpha$ falls.
+When $\bar\alpha = 1$, the potential is whole: $S$ is in an equal-weight
+superposition of pointer states and is not entangled with $E$ at all.
+As decoherence drives $\bar\alpha$ toward $0$, the potential is spent:
+$S$'s coherence is converted into correlation with $E$, and $S$, viewed
+locally, comes to behave as a classical mixture of definite states.
+Scalar affinity and entanglement can come fully apart: either half of a
+maximally entangled pair has $\bar\alpha = 0$.
 The range $[0,1]$ is not a metaphor.
 It is a precisely defined, experimentally accessible, continuously
-varying measure of what process philosophy calls the degree of a
-thing's relational being.
+varying measure of how much of a system's relational becoming is still
+potential rather than actual.
 
 \subsection{Four Propositions}
 
@@ -55,23 +64,23 @@ The \RCF\ comprises four propositions, each of which makes the
 philosophical claim mathematically precise.
 
 \paragraph{Property indefiniteness.}
-A system with nonzero Affinity Operator ($\alpha > 0$) does not possess
-classical-style definite values for the full set of its complementary
-observables, and (when entangled) does not possess definite local
-properties at all.
+A system with nonzero scalar affinity ($\bar\alpha > 0$) has, relative to
+its environment, no definite value of the pointer observable that
+environment selects: its reduced state cannot be written as a classical
+mixture of pointer states.
 This is not a statement about measurement uncertainty.
 It is a statement about ontological structure: the system is still in
 the process of becoming, still in the superposition of relational
 possibilities that Whitehead would call its potential phase.
 Classical-style definite local properties belong to decohered states;
-the relational coherence preserved at $\alpha > 0$ and the classical
-definiteness recovered at $\alpha = 0$ are, in this sense, mutually
+the relational coherence preserved at $\bar\alpha > 0$ and the classical
+definiteness recovered at $\bar\alpha = 0$ are, in this sense, mutually
 exclusive --- exactly as process ontology predicts.
 
 \paragraph{Relational determination.}
 Definite properties emerge through relational interaction.
-Under environmental coupling, the Affinity Operator decays continuously
-from its initial value toward zero.
+Under environmental coupling, the scalar affinity $\bar\alpha$ decays
+continuously from its initial value toward zero.
 As it decays, the system's relational potential is actualized into
 definite outcomes through its interaction with the environment.
 On my proposal, this is a mathematical formalization of what Whitehead
@@ -79,29 +88,30 @@ means by concrescence: the transition from potential to actuality through
 relational process.
 
 \paragraph{Coherence--affinity correspondence.}
-The Affinity Operator ranges continuously over $[0,1]$, with $\alpha = 1$
-at maximum relational coherence and $\alpha = 0$ at full decoherence.
-This means that relational affinity is not binary --- not simply present
+The scalar affinity $\bar\alpha$ ranges continuously over $[0,1]$, with
+$\bar\alpha = 1$ at maximum relational coherence and $\bar\alpha = 0$ at
+full decoherence.
+This means that relational potential is not binary --- not simply present
 or absent --- but a continuously graded quantity.
-Existence, in the process ontological sense, admits of degrees.
-The \bahai passage that defines nonexistence as the \emph{absence} of
-affinity and attraction (Section~\ref{sec:bahai}) is, on this reading,
-a statement about the $\alpha = 0$ limit: the point at which relational
-coherence has been fully extinguished and the pattern of relational
-events that constituted the thing has dissolved.
+Becoming, in the process ontological sense, admits of degrees.
+The $\bar\alpha = 0$ limit should not, however, be read as the
+nonexistence that the \bahai passage defines as the \emph{absence} of
+affinity and attraction (Section~\ref{sec:bahai}).
+A system that reaches $\bar\alpha = 0$ through decoherence has not lost
+its relations; it has spent its potential in forming them, and its
+correlation with its environment is then at its greatest.
 
-\paragraph{Conservation of relational potential.}
-On the formal definition supplied in the companion
-paper~\citep{Adams2026Physics}, the total relational potential of a
-closed system--environment composite is conserved under unitary
-evolution; what changes is its distribution.
+\paragraph{Redistribution of relational potential.}
+As the companion paper~\citep{Adams2026Physics} shows,
+the relational potential a system loses under unitary evolution of a
+closed system--environment composite is not destroyed; it changes form.
 Relational coherence that was locally concentrated in the system is
 redistributed into correlations between the system and its environment,
 in a manner consistent with the standard quantum-mechanical fact that
 unitary evolution preserves global state purity while local von Neumann
 entropies may grow.
 Relational being, on this construal, is not created or destroyed but
-transformed.
+transformed: potential becomes connection.
 This is the formal expression of what the \bahai writings call the
 creative foundation: the relational ground of existence is not consumed
 by the process of becoming but redistributed through it, available for
@@ -150,13 +160,13 @@ and $\Delta F = +0.025$ over a uniform-angle schedule on heterogeneous
 noise~\citep{Adams2026Physics}.
 This is not merely an engineering optimization.
 It is a prediction derived from the process ontological claim that
-relational affinity is a continuous, conservatively redistributed
+relational potential is a continuous, conservatively redistributed
 resource --- a claim that the \RCF\ formalizes and that the $\URA$
 gate tests experimentally.
 The ``economical'' principle the theorem embodies --- extracting only
 as much entanglement as the coherence budget can sustain, layer by
 layer, routed toward the quietest substrates --- instantiates the
-conservation of relational potential developed in the preceding
+redistribution of relational potential developed in the preceding
 subsection and resonates with a broader emphasis on balance and measured
 proportion that recurs across all three traditions: Whitehead's
 redistribution of relational potential under unitary evolution, and the
